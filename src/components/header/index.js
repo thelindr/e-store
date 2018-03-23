@@ -13,7 +13,7 @@ class Header extends React.Component {
     }
   }
 
-  // if you're on startpage, set header color
+  // if you're on startpage, set header style
 
   checkLocation() {
     if (window.location.pathname.includes("women")) {
@@ -59,7 +59,8 @@ class Header extends React.Component {
               to="/men">Men
             </Link>
             <Link to="/children">Children</Link>
-            <div className="dropdownMenu">{this.state.menu}</div>
+            <div className="dropdownMenu">
+              <div className="columnHolder">{this.state.menu}</div></div>
           </div>
         </div>
       </div>

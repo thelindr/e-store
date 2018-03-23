@@ -88,3 +88,13 @@
   visibility: visible;
   max-height: 300px;
 }
+
+.Header li {
+  list-style: none;
+  text-transform: none;
+}
+
+.Header .columnHolder {
+  width: 50%;
+  text-align: center;
+}
